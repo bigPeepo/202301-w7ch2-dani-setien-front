@@ -2,7 +2,6 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { User, UserState } from "../../../../types/types";
 
 const initialUserState: UserState = {
-  id: "",
   username: "",
   token: "",
   isLogged: false,
