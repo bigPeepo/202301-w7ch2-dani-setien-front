@@ -1,8 +1,8 @@
 import { useState } from "react";
 import useApi from "../../hooks/useApi/useApi";
-import FormStyled from "./FormStyled";
+import FormStyled from "./RobotFormStyled";
 
-const Form = (): JSX.Element => {
+const RobotForm = (): JSX.Element => {
   const { createRobot } = useApi();
 
   const [name, setName] = useState("");
@@ -137,4 +137,4 @@ const Form = (): JSX.Element => {
   );
 };
 
-export default Form;
+export default RobotForm;
