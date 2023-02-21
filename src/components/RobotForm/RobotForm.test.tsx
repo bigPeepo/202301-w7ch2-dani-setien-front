@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import Wrapper from "../../mocks/Wrapper";
-import Form from "./Form";
+import RobotForm from "./RobotForm";
 
 describe("Given a Form component", () => {
   describe("When it is rendered", () => {
@@ -9,7 +9,7 @@ describe("Given a Form component", () => {
 
       render(
         <Wrapper>
-          <Form />
+          <RobotForm />
         </Wrapper>
       );
 
@@ -23,7 +23,7 @@ describe("Given a Form component", () => {
 
       render(
         <Wrapper>
-          <Form />
+          <RobotForm />
         </Wrapper>
       );
 
